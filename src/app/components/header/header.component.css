@@ -1,0 +1,95 @@
+/* .headSection {
+    --tw-text-opacity: 1;
+    color: rgb(156 163 175 / var(--tw-text-opacity));
+    --tw-bg-opacity: 1;
+    background-color: rgb(17 24 39 / var(--tw-bg-opacity));
+    margin: 0;
+    line-height: inherit;
+    tab-size:4;
+    line-height: 1.5;
+    display: flex;
+}
+
+.headContainer {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 1.25rem;
+    /* flex-direction: row; */
+    @import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
+    .headerSearch {
+        outline: 0;
+        height: 32px;
+        width: 32%;
+        line-height: 42px;
+        padding: 0 16px;
+        background-color: rgba(255, 255, 255, 0.8);
+        color: #212121;
+        border: 0;
+        float: left;
+        -webkit-border-radius: 4px 0 0 4px;
+        border-radius: 4px 0 0 4px;
+      }
+      
+      .headerSearch:focus {
+        outline: 0;
+        background-color: #FFF;
+      }
+      
+      .searchButton {
+        outline: 0;
+        background: none;
+        background-color: rgba(38, 50, 56, 0.8);
+        float: left;
+        height: 32px;
+        width: 42px;
+        text-align: center;
+        line-height: 42px;
+        border: 0;
+        color: #FFF;
+        font: normal normal normal 14px/1 FontAwesome;
+        font-size: 16px;
+        text-rendering: auto;
+        text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+        -webkit-transition: background-color .4s ease;
+        transition: background-color .4s ease;
+        -webkit-border-radius: 0 4px 4px 0;
+        border-radius: 0 4px 4px 0;
+      }
+      .searchButton:hover {
+        background-color: rgba(0, 150, 136, 0.8);
+      }
+      .searchBtnSVG{
+        /* width: 0;
+        height: auto; */
+      }
+      .moreAppsBtn{
+        outline: 0;
+        /* background: none; */
+        /* background-color: rgba(38, 50, 56, 0.8); */
+        float: left;
+        height: 32px;
+        width: 42px;
+        text-align: center;
+        line-height: 42px;
+        border: 0;
+        color: #FFF;
+        font: normal normal normal 14px/1 FontAwesome;
+        font-size: 16px;
+        text-rendering: auto;
+        text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+        -webkit-transition: background-color .4s ease;
+        transition: background-color .4s ease;
+        -webkit-border-radius: 0 4px 4px 0;
+        border-radius: 4px 4px 4px 4px;
+      }
+      .moreAppsBtn:hover{
+        background-color: rgba(0, 150, 136, 0.8);
+      }
+      .headLoginBtn:hover{
+        background-color: rgba(0, 150, 136, 0.8)
+      }
